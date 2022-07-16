@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.top{
+    background-color: rgb(44, 44, 44);
+    color: white;
+padding: 30px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.top1{
+    background-color: rgb(44, 44, 44);
+    color: white;
+padding: 30px;
+    max-width: 60%;
+    text-align: center;
+    font-size: 20px; 
+    margin: auto;
+    border-radius: 30px;
+}
+.meio{
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 60px;
+    margin: auto;
+    margin-top: 50px;
+}
+input, button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+button{
+margin-top: 20px;
+border: 3px gray solid;
+max-width: 100%;
+font-size: large;
+font-weight: 900;
+}
+button:hover{
+    margin-top: 20px;
+    border: 3px rgb(0, 19, 185) solid;
+    }
+  .temperara{
+      text-align: center;
+      font-size:5vw;
+      padding-top: 40px;
+  }
+    @media screen and (max-width:635px) {
+        .meio{
+            padding: 20px;
+        }
+        .top1{
+            padding: 10px;
+        }
+    }
+    .back{
+        max-width: 20%;
+        background-color: rgba(255, 255, 255);
+        padding: 10px;
+        margin: auto;
+        margin-top: 50px; 
+        color: black;  
+        text-align: center;
+        font-size: 3vw;
+        font-weight: 900;
+        border: 3px solid white;
+    }
+    .back:hover{
+        border: 3px solid black;
+    }
+    a{
+        text-decoration: none;
+    }
+    .borda{
+        border: 0.2vw solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    list-style: none;
+    padding: 5px;
+    font-size: 3vw;
+    background-color: #000000;
+    color: white;
+}
+.borda:hover{
+    border: 0.2vw solid white;
+    background-color: white;
+    color: #000000;
+}
+.baixo{
+    position: absolute;
+    bottom: 0%;
+    padding: 10px;
+    color: white;
+}
+.formula{
+    margin-top: 30px;
+}
+.meio1{
+    padding-top: 30px;
+}
